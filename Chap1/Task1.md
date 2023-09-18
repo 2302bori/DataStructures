@@ -91,12 +91,3 @@ int *SelectionSort(int *a, const int n)
     return array;
 }
 ```
-
-```cpp
-void ImprovedSwapSort(int *a, int n){
-    for(int i=0; i<n; ++i)
-        for(int j = i+ 1; j<n; ++j)
-            if(a[i]>a[j])
-                swap(a[i],[j]);
-}
-```
